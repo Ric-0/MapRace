@@ -12,7 +12,7 @@ export default function app() {
           />
           
         <Pressable style={styles.button}>
-          <Text style={styles.texte1}>NIKTA RACES</Text>
+          <Text style={styles.texte1}>Race Map</Text>
         </Pressable>
         <Pressable style={styles.button}>
           <Text style={styles.text}>Parcourez  <Text style={{color: 'red'}}>votre ville</Text> d'une nouvelle façon, pour les plus et moins <Text style={{color: 'red'}}>sportifs</Text> d'entre nous</Text>
