@@ -1,0 +1,330 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.race"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+13-->[:react-native-maps] C:\Users\nico2\Documents\GitHub\MapRace\node_modules\react-native-maps\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-81
+13-->[:react-native-maps] C:\Users\nico2\Documents\GitHub\MapRace\node_modules\react-native-maps\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nico2\.gradle\caches\transforms-3\194947bb68aa47343e190d6eb8dd4f5e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nico2\.gradle\caches\transforms-3\194947bb68aa47343e190d6eb8dd4f5e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nico2\.gradle\caches\transforms-3\194947bb68aa47343e190d6eb8dd4f5e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nico2\.gradle\caches\transforms-3\194947bb68aa47343e190d6eb8dd4f5e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nico2\.gradle\caches\transforms-3\194947bb68aa47343e190d6eb8dd4f5e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+19
+20    <queries>
+20-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nico2\.gradle\caches\transforms-3\194947bb68aa47343e190d6eb8dd4f5e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+21
+22        <!-- Needs to be explicitly declared on Android R+ -->
+23        <package android:name="com.google.android.apps.maps" />
+23-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nico2\.gradle\caches\transforms-3\194947bb68aa47343e190d6eb8dd4f5e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+23-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nico2\.gradle\caches\transforms-3\194947bb68aa47343e190d6eb8dd4f5e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+24    </queries>
+25
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+26-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:22-65
+27    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+27-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+27-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+28    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+28-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+28-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+29
+30    <application
+30-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:7:5-29:19
+31        android:name="com.race.MainApplication"
+31-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:8:7-38
+32        android:allowBackup="false"
+32-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:12:7-34
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.6.0] C:\Users\nico2\.gradle\caches\transforms-3\5c61d7afbc1bcd99cb491da6ba2ee6c1\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:10:7-41
+35        android:label="@string/app_name"
+35-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:9:7-39
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:11:7-52
+37        android:theme="@style/AppTheme" >
+37-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:13:7-38
+38        <activity
+38-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:14:7-25:18
+39            android:name="com.race.MainActivity"
+39-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:15:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+40-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:17:9-118
+41            android:exported="true"
+41-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:20:9-32
+42            android:label="@string/app_name"
+42-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:16:9-41
+43            android:launchMode="singleTask"
+43-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:18:9-40
+44            android:windowSoftInputMode="adjustResize" >
+44-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:19:9-51
+45            <intent-filter>
+45-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:21:9-24:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:22:13-65
+46-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:22:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:23:13-73
+48-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:23:23-70
+49            </intent-filter>
+50        </activity>
+51
+52        <meta-data
+52-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:26:7-28:66
+53            android:name="com.google.android.geo.API_KEY"
+53-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:27:9-54
+54            android:value="AIzaSyCAsrnw71Zk1PdaXuncrphRxmWVwujkikE" />
+54-->C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:28:9-64
+55        <!-- Needs to be explicitly declared on P+ -->
+56        <uses-library
+56-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nico2\.gradle\caches\transforms-3\194947bb68aa47343e190d6eb8dd4f5e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+57            android:name="org.apache.http.legacy"
+57-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nico2\.gradle\caches\transforms-3\194947bb68aa47343e190d6eb8dd4f5e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+58            android:required="false" />
+58-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nico2\.gradle\caches\transforms-3\194947bb68aa47343e190d6eb8dd4f5e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+59
+60        <activity
+60-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nico2\.gradle\caches\transforms-3\988256e85b21d0de19e4b7cf8d32c7b5\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+61            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+61-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nico2\.gradle\caches\transforms-3\988256e85b21d0de19e4b7cf8d32c7b5\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+62            android:exported="false"
+62-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nico2\.gradle\caches\transforms-3\988256e85b21d0de19e4b7cf8d32c7b5\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+63-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nico2\.gradle\caches\transforms-3\988256e85b21d0de19e4b7cf8d32c7b5\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+64
+65        <meta-data
+65-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\nico2\.gradle\caches\transforms-3\c2c82f8dd8fc3ca4c18c329bafdb3632\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+66            android:name="com.google.android.gms.version"
+66-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\nico2\.gradle\caches\transforms-3\c2c82f8dd8fc3ca4c18c329bafdb3632\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+67            android:value="@integer/google_play_services_version" />
+67-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\nico2\.gradle\caches\transforms-3\c2c82f8dd8fc3ca4c18c329bafdb3632\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+68
+69        <provider
+69-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+71            android:authorities="com.race.androidx-startup"
+71-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+72            android:exported="false" >
+72-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+73            <meta-data
+73-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+74                android:name="androidx.work.WorkManagerInitializer"
+74-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+75                android:value="androidx.startup" />
+75-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+76        </provider>
+77
+78        <service
+78-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+79            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+79-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+80            android:directBootAware="false"
+80-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+81            android:enabled="@bool/enable_system_alarm_service_default"
+81-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+82            android:exported="false" />
+82-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+83        <service
+83-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+84            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+84-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+85            android:directBootAware="false"
+85-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+86            android:enabled="@bool/enable_system_job_service_default"
+86-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+87            android:exported="true"
+87-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+88            android:permission="android.permission.BIND_JOB_SERVICE" />
+88-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+89        <service
+89-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+90            android:name="androidx.work.impl.foreground.SystemForegroundService"
+90-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+91            android:directBootAware="false"
+91-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+92            android:enabled="@bool/enable_system_foreground_service_default"
+92-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+93            android:exported="false" />
+93-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+94
+95        <receiver
+95-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+96            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+96-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+97            android:directBootAware="false"
+97-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+98            android:enabled="true"
+98-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+99            android:exported="false" />
+99-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+100        <receiver
+100-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+101            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+101-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+102            android:directBootAware="false"
+102-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+103            android:enabled="false"
+103-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+104            android:exported="false" >
+104-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+105            <intent-filter>
+105-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+106                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+106-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+106-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+107                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+107-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+107-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+108            </intent-filter>
+109        </receiver>
+110        <receiver
+110-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+111            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+111-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+112            android:directBootAware="false"
+112-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+113            android:enabled="false"
+113-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+114            android:exported="false" >
+114-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+115            <intent-filter>
+115-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+116                <action android:name="android.intent.action.BATTERY_OKAY" />
+116-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+116-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+117                <action android:name="android.intent.action.BATTERY_LOW" />
+117-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+117-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+118            </intent-filter>
+119        </receiver>
+120        <receiver
+120-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+121            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+121-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+122            android:directBootAware="false"
+122-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+123            android:enabled="false"
+123-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+124            android:exported="false" >
+124-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+125            <intent-filter>
+125-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+126                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+126-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+126-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+127                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+127-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+127-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+128            </intent-filter>
+129        </receiver>
+130        <receiver
+130-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+131            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+131-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+132            android:directBootAware="false"
+132-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+133            android:enabled="false"
+133-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+134            android:exported="false" >
+134-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+135            <intent-filter>
+135-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+136                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+136-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+136-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+137            </intent-filter>
+138        </receiver>
+139        <receiver
+139-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+140            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+140-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+141            android:directBootAware="false"
+141-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+142            android:enabled="false"
+142-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+143            android:exported="false" >
+143-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+144            <intent-filter>
+144-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+145                <action android:name="android.intent.action.BOOT_COMPLETED" />
+145-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+145-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+146                <action android:name="android.intent.action.TIME_SET" />
+146-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+146-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+147                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+147-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+147-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+148            </intent-filter>
+149        </receiver>
+150        <receiver
+150-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+151            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+151-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+152            android:directBootAware="false"
+152-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+153            android:enabled="@bool/enable_system_alarm_service_default"
+153-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+154            android:exported="false" >
+154-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+155            <intent-filter>
+155-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+156                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+156-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+156-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+157            </intent-filter>
+158        </receiver>
+159        <receiver
+159-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+160            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+160-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+161            android:directBootAware="false"
+161-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+162            android:enabled="true"
+162-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+163            android:exported="true"
+163-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+164            android:permission="android.permission.DUMP" >
+164-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+165            <intent-filter>
+165-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+166                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+166-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+166-->[androidx.work:work-runtime:2.7.1] C:\Users\nico2\.gradle\caches\transforms-3\240fa09109bb1cab3d7e4bc0a1ca21b9\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+167            </intent-filter>
+168        </receiver>
+169
+170        <service
+170-->[androidx.room:room-runtime:2.2.5] C:\Users\nico2\.gradle\caches\transforms-3\20bb6ad9a4a89a9df12539425b941874\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+171            android:name="androidx.room.MultiInstanceInvalidationService"
+171-->[androidx.room:room-runtime:2.2.5] C:\Users\nico2\.gradle\caches\transforms-3\20bb6ad9a4a89a9df12539425b941874\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+172            android:directBootAware="true"
+172-->[androidx.room:room-runtime:2.2.5] C:\Users\nico2\.gradle\caches\transforms-3\20bb6ad9a4a89a9df12539425b941874\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+173            android:exported="false" />
+173-->[androidx.room:room-runtime:2.2.5] C:\Users\nico2\.gradle\caches\transforms-3\20bb6ad9a4a89a9df12539425b941874\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+174    </application>
+175
+176</manifest>

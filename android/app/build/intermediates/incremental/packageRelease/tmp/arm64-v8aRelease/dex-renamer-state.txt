@@ -1,0 +1,4 @@
+#Wed Jun 01 21:25:06 CEST 2022
+base.0=C\:\\Users\\nico2\\Documents\\GitHub\\MapRace\\android\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

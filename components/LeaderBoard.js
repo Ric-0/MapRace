@@ -12,6 +12,7 @@ export default function app() {
   return (
     <View style={styles.container}>
         <Text>scores</Text>
+        {/* Affichage du score des utilisateurs */}
         <Leaderboard 
         data={this.state.data} 
         sortBy='highScore' 

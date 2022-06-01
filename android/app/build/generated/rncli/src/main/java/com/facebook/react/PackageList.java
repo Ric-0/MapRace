@@ -11,6 +11,8 @@ import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.ArrayList;
 
+// @react-native-community/geolocation
+import com.reactnativecommunity.geolocation.GeolocationPackage;
 // @react-native-community/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;
 // react-native-gesture-handler
@@ -70,6 +72,7 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
+      new GeolocationPackage(),
       new RNCMaskedViewPackage(),
       new RNGestureHandlerPackage(),
       new MapsPackage(),

@@ -8,6 +8,7 @@ MERGED from C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\Android
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\nico2\.gradle\caches\transforms-3\b2ec3232205e095c09543a31d56ae642\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] C:\Users\nico2\.gradle\caches\transforms-3\674677064ce29f9763dc420868735b8b\transformed\jetified-flipper-network-plugin-0.125.0\AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] C:\Users\nico2\.gradle\caches\transforms-3\df731ac58fe0112a493f9730ba0671c1\transformed\jetified-flipper-fresco-plugin-0.125.0\AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-community_geolocation] C:\Users\nico2\Documents\GitHub\MapRace\node_modules\@react-native-community\geolocation\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_masked-view] C:\Users\nico2\Documents\GitHub\MapRace\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] C:\Users\nico2\Documents\GitHub\MapRace\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-maps] C:\Users\nico2\Documents\GitHub\MapRace\node_modules\react-native-maps\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-12:12
@@ -110,6 +111,10 @@ MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\nico2\.g
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\nico2\.gradle\caches\transforms-3\194947bb68aa47343e190d6eb8dd4f5e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:5:22-76
 application
 ADDED from C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:7:5-29:19
 MERGED from C:\Users\nico2\Documents\GitHub\MapRace\android\app\src\main\AndroidManifest.xml:7:5-29:19
@@ -210,6 +215,8 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] C:\Users\nico2
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] C:\Users\nico2\.gradle\caches\transforms-3\674677064ce29f9763dc420868735b8b\transformed\jetified-flipper-network-plugin-0.125.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] C:\Users\nico2\.gradle\caches\transforms-3\df731ac58fe0112a493f9730ba0671c1\transformed\jetified-flipper-fresco-plugin-0.125.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] C:\Users\nico2\.gradle\caches\transforms-3\df731ac58fe0112a493f9730ba0671c1\transformed\jetified-flipper-fresco-plugin-0.125.0\AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-community_geolocation] C:\Users\nico2\Documents\GitHub\MapRace\node_modules\@react-native-community\geolocation\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_geolocation] C:\Users\nico2\Documents\GitHub\MapRace\node_modules\@react-native-community\geolocation\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] C:\Users\nico2\Documents\GitHub\MapRace\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] C:\Users\nico2\Documents\GitHub\MapRace\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] C:\Users\nico2\Documents\GitHub\MapRace\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
