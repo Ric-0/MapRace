@@ -265,13 +265,7 @@ export default function app() {
 
   return (
     <View style={styles.container}>
-      <MapView 
-        initialRegion={{
-          latitude: 37.78825,
-          longitude: -122.4324,
-          latitudeDelta: 0.0922,
-          longitudeDelta: 0.0421,
-        }}
+      <MapView style={styles.map}
       />
       {/*}
       <View style={{flex: 1, justifyContent: 'center', alignItems: 'bottom', position:'absolute', zIndex: 999}}>
